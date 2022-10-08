@@ -31,4 +31,4 @@ Edit Profile Form allows users to see and update their profile.
 ![Customer Login](https://user-images.githubusercontent.com/63891089/194712368-c076115e-2c70-43c1-a32d-02005fd5a7f8.PNG)
 
 # How to Run?
-You can go to `src` then run the app `Main_Program.java`
+You can go to `src` file then, run the program in `Main_Program.java` class
