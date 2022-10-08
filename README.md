@@ -2,7 +2,7 @@
 GameIn! is a simple game shop written in Java Swing that sells many types of game. This application manage all the transactions.
 
 # Features
-## Login Form
+### Login Form
 Login Form is used by users to Login so the users can access the Main Form.
 
 ## Register Form
