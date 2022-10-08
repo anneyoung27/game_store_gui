@@ -75,7 +75,7 @@ CREATE TABLE `games` (
 
 INSERT INTO `games` (`GameID`, `GameName`, `GameType`, `GamePrice`, `GameStock`) VALUES
 ('GA001', 'Minecraft', 'RPG', 650000, 82),
-('GA002', 'Crossfire', 'FPS', 4500000, 178);
+('GA002', 'Dota 2', 'FPS', 4500000, 178);
 
 -- --------------------------------------------------------
 
@@ -120,8 +120,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`UserID`, `UserName`, `UserEmail`, `UserPassword`, `UserDOB`, `UserGender`, `UserAddress`, `UserPhone`, `UserRole`) VALUES
-('US001', 'Doddie Prawarjito', 'admin', 'admin', NULL, 'Male', 'asdasdasdasd Street', '0920398193812319', 'Admin'),
-('US002', 'daniel fujiono', 'customer', 'customer', NULL, 'Male', 'binus Street', '012345678911', 'Customer');
+('US001', 'Liu Kang', 'admin', 'admin', NULL, 'Male', 'asdasdasdasd Street', '0920398193812319', 'Admin'),
+('US002', 'Kung Lao', 'customer', 'customer', NULL, 'Male', 'binus Street', '012345678911', 'Customer');
 
 --
 -- Indexes for dumped tables
