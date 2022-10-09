@@ -62,7 +62,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`UserID`, `UserName`, `UserEmail`, `UserPassword`, `UserDOB`, `UserGender`, `UserAddress`, `UserPhone`, `UserRole`) VALUES
 ('US001', 'Liu Kang', 'admin', 'admin', NULL, 'Male', 'asdasdasdasd Street', '0920398193812319', 'Admin'),
-('US002', 'Kung Lao', 'customer', 'customer', NULL, 'Male', 'binus Street', '012345678911', 'Customer');
+('US002', 'Kung Lao', 'customer', 'customer', NULL, 'Male', 'realm Street', '012345678911', 'Customer');
 
 
 ALTER TABLE `carts`
