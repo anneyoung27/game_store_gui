@@ -5,14 +5,14 @@ CREATE TABLE `carts` (
   `UserID` char(5) NOT NULL,
   `BeverageID` char(5) NOT NULL,
   `Quantity` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+);
 
 
 CREATE TABLE `detailtransactions` (
   `TransactionID` char(5) NOT NULL,
   `GameID` char(5) NOT NULL,
   `Quantity` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+);
 
 
 INSERT INTO `detailtransactions` (`TransactionID`, `GameID`, `Quantity`) VALUES
@@ -28,7 +28,7 @@ CREATE TABLE `games` (
   `GameType` varchar(30) NOT NULL,
   `GamePrice` int(11) NOT NULL,
   `GameStock` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+);
 
 
 INSERT INTO `games` (`GameID`, `GameName`, `GameType`, `GamePrice`, `GameStock`) VALUES
@@ -40,7 +40,7 @@ CREATE TABLE `headertransactions` (
   `TransactionID` char(5) NOT NULL,
   `UserID` char(5) DEFAULT NULL,
   `TransactionDate` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+);
 
 INSERT INTO `headertransactions` (`TransactionID`, `UserID`, `TransactionDate`) VALUES
 ('TR001', 'US002', '2021-06-08'),
@@ -57,7 +57,7 @@ CREATE TABLE `users` (
   `UserAddress` varchar(255) DEFAULT NULL,
   `UserPhone` varchar(30) DEFAULT NULL,
   `UserRole` varchar(10) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+);
 
 
 INSERT INTO `users` (`UserID`, `UserName`, `UserEmail`, `UserPassword`, `UserDOB`, `UserGender`, `UserAddress`, `UserPhone`, `UserRole`) VALUES
