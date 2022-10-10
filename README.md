@@ -1,3 +1,5 @@
+<img width="256" alt="unnamed" src="https://user-images.githubusercontent.com/63891089/194800258-793ea2e5-248e-432c-b65d-94658a53dd5c.png">
+
 # Introduction
 GameIn! is a simple game shop written in Java Swing that sells many types of game. This application manage all the transactions.
 
@@ -22,13 +24,6 @@ Manage Game Form is made for admin to manage game. Admin can do insert new game,
 
 - **Edit Profile Form**
 Edit Profile Form allows users to see and update their profile. 
-
-# Output Image
-## Admin Login
-![Admin Login](https://user-images.githubusercontent.com/63891089/194712352-d55908e4-8be3-4138-856d-38078d70bc45.PNG)
-
-## Customer Login
-![Customer Login](https://user-images.githubusercontent.com/63891089/194712368-c076115e-2c70-43c1-a32d-02005fd5a7f8.PNG)
 
 # How to Run?
 You can go to `src` file then, run the program in `Main_Program.java` class.
